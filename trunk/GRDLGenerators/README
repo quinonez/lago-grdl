@@ -1,0 +1,40 @@
+principal code that makes the histograms from trees.
+The way to use this code is to do:
+make compile, and do
+
+mv main dogrl
+./dogrl tree1.root
+
+to run.
+
+
+In order to run over a big list of data, the idea is to do a list.txt with 
+all the trees and add at the begining of each 
+line 
+
+./dogrl tree1.root
+./dogrl tree2.root
+./dogrl tree3.root
+./dogrl tree4.root
+
+being dogrl a copy of the binary main, but dogrl yields at the same folder as 
+the data.
+Then we must to change the list.txt by list.sh, and change the permissions
+by
+
+chmod ug+x list.sh
+
+after that we could run by making
+
+nohup ./list.sh &
+
+and click enter twice.
+Depending of the output registered in nohup.out after have run the project,
+we could rename this file as 
+
+mv nohup.out grl<DETECTOR><YEAR>.txt
+
+
+
+
+
