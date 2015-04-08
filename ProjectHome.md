@@ -1,0 +1,1 @@
+In this place we create and store the GRDLs for the Large Aperture Gamma Ray Burst Observatory. The final result are some CPlusPlus classes, that the final user can to add to his/her projects in order to run algorithms on the data well behaved.
